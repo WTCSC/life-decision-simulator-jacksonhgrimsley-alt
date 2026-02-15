@@ -1,0 +1,116 @@
+print("Good morning! You wake up bright and early for school.")
+print("what should you do first?")
+print("A) (Get up and put clothes on")
+print("B) (Stay in bed for five more minutes")
+
+choice1 = input("Enter your choice (A or B): ").strip().upper()
+
+if choice1 == 'A':
+    print("Most common choice and always a safe bet")
+    print("whats next on the agenda?")
+    print("C) (go eat breakfast")
+    print("D) (skip breakfast and study for an upcoming test")
+choice2 = input("Enter your choice (C or D): ").strip().upper()
+
+if choice2 == 'C':
+        print("Smart choice — breakfast is the most important meal of the day!")
+elif choice2 == 'D':
+        print("even though studing is important, I hope you don’t get too hungry before lunch.")
+else:
+      print("wasting time man")
+
+print("you rush out the door to make it on the bus")
+print("what would be a good way to kill the time")
+print("E) (should you take the time to study")
+print("F) (or should you catch p on some much needed rest")
+ 
+
+choice3 = input("enter choice (E or F): ").strip().upper()
+
+if choice3 == 'E':
+      print("not the worst idea youve had, it was actually very helpful")
+elif choice3 == 'F':
+      print("if the message wasnt clear already this isnt a good idea, you slept past your stop and missed school")
+else:
+      print("not a choice pick again")
+
+print("you walk into first hour ready to take the test")
+print("the teacher hands out the test and the first question is four plus four?")
+print("G) (answer is eight")
+print("H (the answer is seventy seven")
+
+choice4 = input("enter choice (G or H): ")
+if choice4 == 'G':
+      print("at least you can do basic math")
+elif choice4 == 'H':
+      print("the teacher sees your answer and instantly takes your test and fails you")
+else:
+      print("not a choice")
+
+print("you work hard and get to the last question")
+print("the question is if john had eighteen apples and he eats ten and buys four more how many does he have") 
+print("I) you think he has 14 apples left, you seem pretty confident")
+print("J)(you think very hard and come up with 12")
+
+choice5 = input("enter choice (I or J): ").strip().upper() 
+if choice5 == 'I':
+      print("so close but so far. you fail")
+elif choice5 == 'J':
+      print("the teacher hands your test back to you suprised, looks like you passed")
+else:
+      print("not a valid input")      
+
+
+
+
+
+
+if choice1 == 'B':
+    print ("interesting choice, totally wont have consequences in the future")
+    print("C)(finally get up and get ready and eat")
+    print("D) (screw it and go back to sleep fully")
+choice2 = input("enter choice (C or D):")
+if choice2 == 'C':
+      print("you feel refreashed and full of energy, but your running late and rush to get to breakfast")
+elif choice2 == 'D':
+      print("well you ust slept through the whole day, very productive")      
+else:
+    print("not an option, just wasting time.") 
+
+print("as your eating you watch the bus pull up and leave without you")
+print("E) (Should you walk")
+print("F)(or should you ask your mom for a ride")
+
+choice3 = input("enter choice (E or F) ").strip().upper()
+if choice3 == 'E':
+      print("you decide to walk and its a beutiful day, but youll probably be late")
+elif choice3 == 'F':
+      print("you ask your mom, she is livid and takes your phone, but she drives you to school.")
+else:
+      print("not valid")
+print("You make it to school but forget you have a test")
+print("G)(should you skip class to makeup a test another day")
+print("H)(should you wing it")
+choice4 = input("enter choice (G or H)").strip().upper()
+if choice4 == 'G':
+      print("Your mom finds out you skipped and your grounded for a month and fail the test")
+elif choice4 == 'H':
+      print("you walk into class and reilize the test is easier than expected")
+else:
+      print("not valid")
+print("you complete the whole test except the last and hardest question")
+print("it says what is four hundred minus two hundred plus fifty times five")
+print("I)(you think its three hundred seventy")
+print("J)(you guess the answer is four hundred fifty")
+choice5 = input("enter choice(I or J)").strip().upper()
+if choice5 == 'I':
+      print("man so close but you parents wanted one hundred percent")
+elif choice5 == 'J':
+      print("you passed the test relieved")
+
+
+           
+
+
+
+
